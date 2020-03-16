@@ -1,21 +1,16 @@
 package model
 
 import (
-   "time"
+	"time"
 )
 
 type Schedule struct {
-	ID   int
-	Title  string
+	ID        int
+	Title     string
 	SubTitle  string
-	Place   string
-	FromDate   *time.Time
-	ToDate  *time.Time
-	CreatedAt   *time.Time
-	UpdatedAt  *time.Time
+	Place     string
+	FromDate  *time.Time
+	ToDate    *time.Time
+	CreatedAt *time.Time
+	UpdatedAt *time.Time
 }
-
-
-
-
-
